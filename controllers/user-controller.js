@@ -1,9 +1,6 @@
-// controllers/user-controller.js
-
 const { User } = require('../models');
 
 const userController = {
-  // Other controller functions here...
 
 addFriend: async (req, res) => {
     try {

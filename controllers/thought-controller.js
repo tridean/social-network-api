@@ -1,9 +1,6 @@
-// controllers/thought-controller.js
-
 const { Thought, User } = require('../models');
 
 const thoughtController = {
-  // Other controller functions here...
 
 createReaction: async (req, res) => {
     try {
