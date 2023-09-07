@@ -25,7 +25,6 @@ const seedData = async () => {
                 username: 'user2',
                 email: 'user2@example.com',
             },
-            // Add more user objects as needed
         ];
 
         const thoughts = [
