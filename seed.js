@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
-const User = require('./models/user'); // Update the path to your User model
-const Thought = require('./models/thought'); // Update the path to your Thought model
-const ReactionSchema = require('./models/reaction'); // Update the path to your Reaction schema
+const User = require('./models/user'); 
+const Thought = require('./models/thought'); 
+const ReactionSchema = require('./models/reaction'); 
 
 mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/social-network-api', {
     useNewUrlParser: true,

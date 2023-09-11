@@ -17,7 +17,7 @@ username: {
     type: String,
     required: true,
 },
-  reactions: [reactionSchema], // Embed the Reaction schema as an array of subdocuments
+reactions: [reactionSchema], 
 });
 
 thoughtSchema.virtual('reactionCount').get(function () {
